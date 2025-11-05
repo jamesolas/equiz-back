@@ -33,6 +33,6 @@ Class-Path: lib/spring-boot-starter-data-jdbc-3.4.5.jar lib/spring-boot-
  4-runtime-4.13.0.jar
 Implementation-Title: equiz
 Implementation-Version: 0.0.1-SNAPSHOT
-Main-Class: com.equiz
+Main-Class: com.equiz.project
 Created-By: Maven Integration for Eclipse
 
