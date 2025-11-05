@@ -75,7 +75,7 @@ Retrieved 11/4/2025, License - CC-BY-SA 4.0
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.equiz.project</mainClass>
+            <mainClass>com.equiz.project.EquizApplication</mainClass>
           </manifest>
         </archive>
       </configuration>
