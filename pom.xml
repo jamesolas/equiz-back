@@ -57,24 +57,17 @@
 		
 	</dependencies>
 	
-	<!--
-Source - https://stackoverflow.com/questions/9689793/cant-execute-jar-file-no-main-manifest-attribute
-Posted by Olivier Refalo
-Retrieved 11/4/2025, License - CC-BY-SA 4.0
--->
 
+<!--
 <build>
   <plugins>
     <plugin>
-      <!-- Build an executable JAR -->
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
-      <!-- <version>3.4.5</version> -->
       <configuration>
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
             <mainClass>com.equiz.project.EquizApplication</mainClass>
           </manifest>
         </archive>
@@ -82,6 +75,6 @@ Retrieved 11/4/2025, License - CC-BY-SA 4.0
     </plugin>
   </plugins>
 </build>
-
+-->
 
 </project>
