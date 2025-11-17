@@ -1,0 +1,7 @@
+com\equiz\project\service\GameService.class
+com\equiz\project\model\Question.class
+com\equiz\project\repository\GameRepository.class
+com\equiz\project\EquizApplication.class
+com\equiz\project\controller\GameController.class
+com\equiz\project\service\GameServiceImpl.class
+com\equiz\project\aspect\LoggingAspect.class
