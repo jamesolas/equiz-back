@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.equiz.project.model.Question;
 import com.equiz.project.service.GameService;
 
-@CrossOrigin
+
 @RestController
+@CrossOrigin (origins = "equiz-front.vercel.app")
 public class GameController {
 	
 	@Autowired
