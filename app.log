@@ -1,29 +1,39 @@
-2025-11-24T09:19:25.200-06:00  INFO 8476 --- [restartedMain] com.equiz.project.EquizApplication       : Starting EquizApplication using Java 21.0.6 with PID 8476 (C:\Users\j_ola\git\equiz-back\target\classes started by j_ola in C:\Users\j_ola\git\equiz-back)
-2025-11-24T09:19:25.203-06:00  INFO 8476 --- [restartedMain] com.equiz.project.EquizApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-11-24T09:19:25.231-06:00  INFO 8476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-11-24T09:19:25.231-06:00  INFO 8476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-11-24T09:19:25.597-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-11-24T09:19:25.598-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-11-24T09:19:25.618-06:00  INFO 8476 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.equiz.project.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-11-24T09:19:25.618-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
-2025-11-24T09:19:25.625-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-11-24T09:19:25.626-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-24T09:19:25.641-06:00  INFO 8476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
-2025-11-24T09:19:26.043-06:00  INFO 8476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-11-24T09:19:26.053-06:00  INFO 8476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-24T09:19:26.053-06:00  INFO 8476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-11-24T09:19:26.082-06:00  INFO 8476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-24T09:19:26.083-06:00  INFO 8476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 850 ms
-2025-11-24T09:19:26.189-06:00  INFO 8476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-24T09:19:26.251-06:00  INFO 8476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2025-11-24T09:19:26.277-06:00  INFO 8476 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-24T09:19:26.475-06:00  INFO 8476 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-24T09:19:26.494-06:00  INFO 8476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-24T09:19:26.600-06:00  INFO 8476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b843312
-2025-11-24T09:19:26.601-06:00  INFO 8476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-24T09:19:26.639-06:00  WARN 8476 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-11-24T09:19:27.205-06:00  INFO 8476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-24T09:19:27.513-06:00  WARN 8476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-24T09:19:27.914-06:00  INFO 8476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-11-24T09:19:27.938-06:00  INFO 8476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-11-24T09:19:27.942-06:00  INFO 8476 --- [restartedMain] com.equiz.project.EquizApplication       : Started EquizApplication in 2.975 seconds (process running for 3.346)
+2025-11-26T11:39:43.170-06:00  INFO 14252 --- [restartedMain] com.equiz.project.EquizApplication       : Starting EquizApplication using Java 21.0.6 with PID 14252 (C:\Users\j_ola\git\equiz-back\target\classes started by j_ola in C:\Users\j_ola\git\equiz-back)
+2025-11-26T11:39:43.173-06:00  INFO 14252 --- [restartedMain] com.equiz.project.EquizApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-26T11:39:43.207-06:00  INFO 14252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-26T11:39:43.207-06:00  INFO 14252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-26T11:39:43.697-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-26T11:39:43.698-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-11-26T11:39:43.721-06:00  INFO 14252 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.equiz.project.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-11-26T11:39:43.721-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2025-11-26T11:39:43.730-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-26T11:39:43.731-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26T11:39:43.750-06:00  INFO 14252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-11-26T11:39:44.260-06:00  INFO 14252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-26T11:39:44.272-06:00  INFO 14252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-26T11:39:44.272-06:00  INFO 14252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-26T11:39:44.310-06:00  INFO 14252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-26T11:39:44.311-06:00  INFO 14252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2025-11-26T11:39:44.432-06:00  INFO 14252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26T11:39:44.485-06:00  INFO 14252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-11-26T11:39:44.513-06:00  INFO 14252 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-26T11:39:44.717-06:00  INFO 14252 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-26T11:39:44.737-06:00  INFO 14252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-26T11:39:44.852-06:00  INFO 14252 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67a473af
+2025-11-26T11:39:44.854-06:00  INFO 14252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-26T11:39:44.889-06:00  WARN 14252 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-26T11:39:45.482-06:00  INFO 14252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26T11:39:45.795-06:00  WARN 14252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26T11:39:46.200-06:00  INFO 14252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-26T11:39:46.223-06:00  INFO 14252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-26T11:39:46.227-06:00  INFO 14252 --- [restartedMain] com.equiz.project.EquizApplication       : Started EquizApplication in 3.349 seconds (process running for 3.798)
+2025-11-26T17:04:56.171-06:00  WARN 14252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m36s705ms285µs400ns).
+2025-11-26T19:04:02.264-06:00  WARN 14252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35s278ms921µs).
+2025-11-26T20:35:03.597-06:00  WARN 14252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m864ms257µs600ns).
+2025-11-26T21:42:49.279-06:00  WARN 14252 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m45s176ms615µs300ns).
+2025-11-26T21:59:09.397-06:00  INFO 14252 --- [RMI TCP Connection(428)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-26T21:59:09.420-06:00  INFO 14252 --- [RMI TCP Connection(428)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-26T21:59:09.433-06:00  INFO 14252 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-26T21:59:09.442-06:00  INFO 14252 --- [RMI TCP Connection(428)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26T21:59:09.459-06:00  INFO 14252 --- [RMI TCP Connection(428)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-26T21:59:09.465-06:00  INFO 14252 --- [RMI TCP Connection(428)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
