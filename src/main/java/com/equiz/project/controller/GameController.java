@@ -14,7 +14,7 @@ import com.equiz.project.service.GameService;
 
 
 @RestController
-@CrossOrigin (origins = {"https://equiz-front.vercel.app"})
+@CrossOrigin (origins = {"https://equiz-front.vercel.app", "https://gamecypher.com"})
 //@CrossOrigin (origins = {"http://localhost:4200"})
 public class GameController {
 	
